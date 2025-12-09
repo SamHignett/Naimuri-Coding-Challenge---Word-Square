@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Naimuri Coding Challenge - Word Square:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Naimuri_Coding_Challenge___Word_Square_jar</output-path>
+    <root id="archive" name="Naimuri Coding Challenge - Word Square.jar">
+      <element id="module-output" name="Naimuri Coding Challenge - Word Square" />
+    </root>
+  </artifact>
+</component>
