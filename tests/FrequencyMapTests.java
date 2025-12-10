@@ -90,7 +90,7 @@ public class FrequencyMapTests {
     public void Contains_ChecksWhetherMapContainsWord(String storedWord, String checkWord, boolean expected) {
 
         //Arrange
-        sut =  new FrequencyMap(storedWord.toCharArray());
+        sut = new FrequencyMap(storedWord.toCharArray());
 
         //Act
         var doesContain = sut.Contains(checkWord);

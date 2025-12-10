@@ -4,7 +4,6 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-import java.util.Arrays;
 import java.util.stream.Stream;
 
 public class WordSquareTests {
@@ -23,7 +22,6 @@ public class WordSquareTests {
     @MethodSource("wordSquareValidData")
     public void Get_withValidInput_ProducesWordSquare(int squareSize, String letters)
     {
-
         //Act
         var wordSquare = WordSquare.Get(squareSize, letters.toCharArray());
 
